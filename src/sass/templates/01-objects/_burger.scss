@@ -1,0 +1,66 @@
+.o-burger {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    position: relative;
+    z-index: 20;
+    cursor: pointer;
+    @media only screen and (min-width: 1024px) {
+        // margin-right: 0;
+        // width: 2.5rem;
+        // height: 2.5rem;
+        display: hidden;
+    }
+  
+      &.is-active {
+          .o-burger__slice--mid {
+              opacity: 0;
+              transition-delay: 0ms;
+          }
+  
+          .o-burger__slice--top {
+              transform: translate3d(0, -50%, 0) rotate(45deg);
+          }
+  
+          .o-burger__slice--bot {
+              transform: translate3d(0, -50%, 0) rotate(-45deg);
+          }
+      }
+  }
+  
+  .o-burger__slice {
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 2px;
+      transform: translate3d(0, -50%, 0);
+      width: 1.5rem;
+      transform-origin: 50%;
+      transition: opacity 150ms ease, transform 250ms ease;
+  }
+  
+  .o-burger__slice--top {
+      transform: translate3d(0, calc(-50% - 0.375rem), 0);
+  }
+  
+  .o-burger__slice--bot {
+      transform: translate3d(0, calc(-50% + 0.375rem), 0);
+  }
+  
+  // ie11 does not support calc inside translate 
+  .is-ie {
+      .o-burger__slice--top {
+          transform: translate3d(0, -8px, 0);
+      }
+  
+      .o-burger__slice--bot {
+          transform: translate3d(0, 5px, 0);
+      }
+  }
+  
+  .o-burger__slice--mid {
+      transition: opacity 300ms ease;
+      opacity: 1;
+  }
+  
