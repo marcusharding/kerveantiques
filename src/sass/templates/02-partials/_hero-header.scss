@@ -1,0 +1,41 @@
+// Mobile Styles
+
+.mobile-hero__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.hero-heading {
+    z-index: 10;
+    padding-top: 10rem;
+    line-height: 0.4;
+    .h1a {
+        font-size: 90px;
+    }
+    .h1b {
+        font-size: 100px;
+    }
+}
+
+.hero-subHeading {
+    font-size: 42px;
+    text-align: center;
+}
+
+.hero-subHeading__container {
+    padding-bottom: 48px;
+}

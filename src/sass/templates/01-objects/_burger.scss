@@ -1,15 +1,11 @@
 .o-burger {
-    width: 2rem;
-    height: 2rem;
+    width: 100px;
+    height: auto;
     display: flex;
     position: relative;
-    z-index: 20;
     cursor: pointer;
     @media only screen and (min-width: 1024px) {
-        // margin-right: 0;
-        // width: 2.5rem;
-        // height: 2.5rem;
-        display: hidden;
+        display: none;
     }
   
       &.is-active {

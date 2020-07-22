@@ -1,0 +1,23 @@
+@font-face  {
+    font-family: "palatinoLight";
+    src: url("../fonts/2EA710_1_0.woff2") format("woff2");
+    src: url("../fonts/2EA710_1_0.woff") format("woff");
+}
+
+@font-face  {
+    font-family: "palatinoRoman";
+    src: url("../fonts/2EA710_2_0.woff2") format("woff2");
+    src: url("../fonts/2EA710_2_0.woff") format("woff");
+}
+
+@font-face  {
+    font-family: "avenirBook";
+    src: url("../fonts/2EA710_5_0.woff2") format("woff2");
+    src: url("../fonts/2EA710_5_0.woff") format("woff");
+}
+
+@font-face  {
+    font-family: "avenirMedium";
+    src: url("../fonts/2EA710_4_0.woff2") format("woff2");
+    src: url("../fonts/2EA710_4_0.woff") format("woff");
+}

@@ -1,6 +1,9 @@
 // Config
 @import './config';
 
+// Typography
+@import './typography';
+
 //Hamburger
 @import './hamburger/hamburgers';
 
@@ -8,11 +11,14 @@
 
 // 01-Objects
 @import './templates/01-objects/burger';
+@import './templates/01-objects/arrow';
 
 // 02-Partials
+@import './templates/02-partials/mainSection';
 
 // 03-Components
 
 // 04-Global
 @import './templates/04-global/footer';
 @import './templates/04-global/nav';
+@import './templates/02-partials/hero-header';
