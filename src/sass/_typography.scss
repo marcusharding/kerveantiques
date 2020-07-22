@@ -1,3 +1,23 @@
+.text-white {
+    color: white;
+  }
+
+.text-primary {
+color: #988468;
+}
+
+.text-secondary {
+color: #666666;
+}
+
+.text-tertiary {
+    color: #cecece;
+}
+
+.text-quaternary {
+    color: #1a1a1a;
+}
+
 h1 {
     font-family: 'palatinoLight';
     font-weight: 100;
@@ -5,13 +25,23 @@ h1 {
 
 h2 {
     font-family: 'palatinoLight';
+    font-weight: 100; 
+}
+
+h3 {
+    font-family: 'palatinoLight';
     font-weight: 100;
 }
 
 .font-avenirBook {
     font-family: 'avenirBook';
+    font-weight: 100;
 }
 
 .font-avenirMedium {
     font-family: 'avenirMedium';
+}
+
+.font-palatinoRoman {
+    font-family: 'palatinoRoman';
 }

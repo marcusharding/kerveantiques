@@ -33,6 +33,51 @@ body {
     }
 }
 
+//BUTTON STYLES
+
+@mixin btn {
+  display: inline-flex; 
+  text-align: center; 
+  position: relative; 
+  text-transform: uppercase;
+  padding: 40px 100px;
+  cursor: pointer;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.btn {
+  @include btn;
+}
+
+.btn--primary {
+  border: solid 7px #988468;
+  color: #988468;
+  transition: background-color 0.3s ease;
+  &:hover {
+    color: white;
+    background-color: #988468;
+  }
+}
+
+.btn--primary.btn-arrow {
+  &:hover {
+    color: white;
+    transform: translateX(30px)
+  }
+}
+
+.btn-arrow {
+  border: solid #988468;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 15px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin: 10px 10px 10px 80px;
+  transition: transform 0.3s ease;
+}
+
 .aspect-ratio{
   padding-top: 56.25%;
 }
@@ -80,18 +125,6 @@ body {
     width: 90%;
   }
 
-  .text-white {
-    color: white;
-  }
-
-  .text-primary {
-    color: #988468;
-  }
-
-  .text-secondary {
-    color: #666666;
-  }
-
   .z-10 {
     z-index: 10;
   }
@@ -122,6 +155,26 @@ body {
     padding-top: 96px;
   }
 
+  .pb-12 {
+    padding-bottom: 48px;
+  }
+
   .pb-24 {
     padding-bottom: 96px;
+  }
+
+  .mb-12 {
+    margin-bottom: 48px;
+  }
+
+  .mb-24 {
+    margin-bottom: 96px;
+  }
+
+  .mr-4 {
+    margin-right: 16px;
+  }
+
+  .mr-8 {
+    margin-right: 32px;
   }

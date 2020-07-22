@@ -128,22 +128,44 @@
       <!-------------------------
       MAIN PAGE CONTENT
       --------------------------->
-      <section id="mainContent" class="h-screen wrapper text-center py-24">
+      <section id="mainContent" class="wrapper text-center py-24">
         <div class="mainSection">
           <h1 class="uppercase">ANTIQUE APPRECIATION since 1964.</h1>
           <hr class="line-break my-24"/>
-          <h2 class="text-secondary">The Antique Society was founded to study furniture of all periods, places and kinds, to increase knowledge and appreciation of it, and to assist in the preservation of furniture and its records.</h2>
+          <h3 class="text-secondary">The Antique Society was founded to study furniture of all periods, places and kinds, to increase knowledge and appreciation of it, and to assist in the preservation of furniture and its records.</h3>
           <div id="appreciation" class="responsive-img aspect-ratio"></div>
           <p class="text-primary hero-subHeading font-avenirBook pb-24">c. 1770  /  <span class="text-secondary">Armchair by Michel Gourdin - France and a wrap if longer text.</span></p>
-          <p class="uppercase text-primary text-avenirMedium pt-24">new event</p>
+          <p class="uppercase text-primary font-avenirMedium pt-24 newEvent">new event</p>
           <hr class="line-break my-24"/>
+          <h1 class="text-primary date uppercase">21<sup class="sup">st</sup> feb / <span class="text-tertiary">2015</span></h1>
+          <h2 class="text-quaternary uppercase">THE 39th ANNUAL SYMPOSIUM 2015</h2>
+          <p class="text-secondary mainSection-subText font-avenirBook">The Wallace Collection, Hertford House, Manchester Square, London, W1 Price: £45.00</p>
+          <a class="btn btn--primary font-avenirMedium my-24" href="#" onClick="return false;">
+            view events
+            <i class="btn-arrow"></i>
+          </a>
         </div>
       </section>
 
       <!-------------------------
       FOOTER
       --------------------------->
-      <footer></footer>
+      <footer class="py-24">
+        <div class="wrapper">
+          <div class="footer-logo py-12">
+            <h1 class="text-white h1a">The</h1>
+            <h1 class="text-white h1b uppercase">Antique</h1>
+            <h1 class="text-white h1b uppercase">Society</h1>
+          </div>  
+          <p class="uppercase text-primary font-palatinoRoman para-a pb-12">CONTACT & LINKS</p>
+          <p class="text-tertiary font-avenirBook para-b">© Antique Society is registered charity no. 251863.</p>
+          <div class="flex">
+            <p class="uppercase font-avenirBook text-secondary mr-8 para-c">privacy policy</p>
+            <p class="uppercase font-avenirBook text-secondary mr-8 para-c">|</p>
+            <p class="uppercase font-avenirBook text-secondary mr-8 para-c">terms & conditions</p>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

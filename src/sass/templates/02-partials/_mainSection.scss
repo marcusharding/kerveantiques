@@ -8,7 +8,28 @@
         border: solid 1px;
     }
     h2 {
+        font-size: 80px;
+    }
+    h3 {
         font-size: 60px;
         line-height: 1.5;
+    }
+    .newEvent {
+        font-size: 48px;
+    }
+    .date {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .sup {
+            font-size: 40px;
+            top: 40px;
+            height: auto;
+            margin-right: 15px;
+        }
+    }
+    .mainSection-subText {
+        font-size: 52px;
+        line-height: 1.7;
     }
 }
