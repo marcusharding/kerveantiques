@@ -1,25 +1,49 @@
 // Mobile Styles
 
-.mobile-hero__container {
-    height: 100%;
-    width: 100%;
+.mobileHeader {
+    position: relative; 
+    height: 100vh; 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        object-fit: cover;
+    width: 100%;
+    @media only screen and (min-width: 1024px) {
+        display: none;
+    }
+
+    .mobileHero__container {
         width: 100%;
         height: 100%;
+        .mobileHero {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            .hero-subHeading {
+                font-size: 42px;
+                text-align: center;
+            }
+            
+            .hero-subHeading__container {
+                padding-bottom: 48px;
+            }
+        }
     }
 }
 
-.hero-heading {
+
+
+.mobile-hero__heading {
     z-index: 10;
     padding-top: 10rem;
     line-height: 0.4;
@@ -31,11 +55,91 @@
     }
 }
 
-.hero-subHeading {
-    font-size: 42px;
-    text-align: center;
+// Desktop Styles
+
+.desktopHeader {
+    height: 100vh;
+    top: 0;
+    position: relative;
+    width: 100%;
+    display: none;
+    z-index: 0;
+    @media only screen and (min-width: 1024px) {
+        display: block;
+    }
 }
 
-.hero-subHeading__container {
-    padding-bottom: 48px;
+.desktop-hero__container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    .desktopHero {
+        width: 100%;
+        height: 100%;
+        img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .hero__heading__container {
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        position: relative;
+        height: 100%;
+        div {
+            width: 50%;
+        }
+        .heading {
+            line-height: 0.3;
+        }
+        .h1a {
+            font-size: 52px;
+        }
+        .h1b {
+            font-size: 80px;
+        }
+        hr {
+            width: 15%;
+            margin-left: 0;
+        }
+        .para-a {
+            color: #1a1a1a;
+            font-size: 28px;
+            line-height: 1.2;
+            width: 65%;
+        }
+        .para-b {
+            width: 30%;
+            line-height: 1.2;
+            position: absolute;
+            bottom: 0;
+            span {
+                color:#1b1b1b;
+            }
+        }
+    }
 }
+
+
+
+// Headroom.js
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+  }
+  .headroom--pinned {
+    transform: translateY(0%);
+  }
+  .headroom--unpinned {
+    transform: translateY(-100%);
+  }

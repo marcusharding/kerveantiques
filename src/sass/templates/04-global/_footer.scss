@@ -1,13 +1,36 @@
 footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
     background-color: #1b1b1b;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: auto;
+    div {
+        width: 100%;
+        height: 100%;
+    }
+    @media only screen and (min-width: 1024px) {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
     .para-a {
-        font-size: 40px;
+        font-size: 30px;
+        @media only screen and (min-width: 1024px) {
+        font-size: 20px;
+        }
     }
     .para-b {
         font-size: 30px;
+        @media only screen and (min-width: 1024px) {
+        font-size: 15px;
+        }
     }
     .para-c {
-        font-size: 36px;
+        font-size: 30px;
+        @media only screen and (min-width: 1024px) {
+        font-size: 16px;
+        }
     }
 }
 
@@ -15,9 +38,15 @@ footer {
     .h1a {
         font-size: 68px;
         margin: 0;
+        @media only screen and (min-width: 1024px) {
+            font-size: 38px;
+        }
     }
     .h1b {
         font-size: 80px;
         margin: 0;
+        @media only screen and (min-width: 1024px) {
+            font-size: 48px;
+        }
     }
 }

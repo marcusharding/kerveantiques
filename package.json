@@ -31,7 +31,10 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "extract-text-webpack-plugin": "^3.0.2",
+    "headroom.js": "^0.11.0",
+    "jquery": "^3.5.1",
     "normalize.css": "^8.0.1",
     "smooth-scroll": "^16.1.3"
   }

@@ -1,11 +1,28 @@
 .mainSection {
-    h1 {
+    .h1-a {
+        font-size: 112px;
+        @media only screen and (min-width: 1024px) {
+            font-size: 60px;
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .h1-b {
         font-size: 112px;
     }
     .line-break {
         width: 40%;
         color: #988468;
         border: solid 1px;
+        margin-top: 96px;
+        margin-bottom: 96px;
+        @media only screen and (min-width: 1024px) {
+            border: solid 0.1px;  
+            width: 8%;
+            margin-top: 48px;
+            margin-bottom: 48px;
+        }
     }
     h2 {
         font-size: 80px;
@@ -13,9 +30,46 @@
     h3 {
         font-size: 60px;
         line-height: 1.5;
+        @media only screen and (min-width: 1024px) {
+            font-size: 36px;
+            padding-bottom: 48px;
+        }
+    }
+
+    .info-excerpt {
+        @media only screen and (min-width: 1024px) {
+            width: 30%;
+            margin: 0 auto;
+        }
     }
     .newEvent {
         font-size: 48px;
+        span {
+            display: none;
+        }
+        @media only screen and (min-width: 1024px) {
+            font-size: 24px;
+            span {
+                display: inline-block;
+            }
+        }
+    }
+    .mainSection-subText {
+        font-size: 52px;
+        line-height: 1.7;
+    }
+}
+
+section {
+    background-color: #f3f3f3;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+// Mobile Event
+.mobileEvent__container {
+    @media only screen and (min-width: 1024px) {
+        display: none;
     }
     .date {
         position: relative;
@@ -28,8 +82,35 @@
             margin-right: 15px;
         }
     }
-    .mainSection-subText {
-        font-size: 52px;
-        line-height: 1.7;
+}
+// Desktop Event
+.desktopEvent__container {
+    display: none;
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+    }
+    .event {
+        width: 33.33%;
+        text-align: left;
+        h1 {
+            font-size: 48px;
+        }
+        h2 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 15px;
+            width: 78%;
+        }
+    .date {
+        position: relative;
+        display: flex;
+        .sup {
+            font-size: 20px;
+            top: 10px;
+            height: auto;
+            margin-right: 15px;
+        }
+    }
     }
 }

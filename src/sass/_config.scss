@@ -1,4 +1,23 @@
 
+html,
+body {
+  height: 100%;
+}
+
+section {
+  min-height: 100%; 
+  height: auto !important; 
+  height: 100%;
+  margin-bottom: 850px;
+  @media only screen and (min-width: 1024px) {
+    margin-bottom: 538px;
+  }
+}
+
+main {
+  z-index: 20;
+}
+
 // HELPERS
 
 body {
@@ -44,6 +63,12 @@ body {
   cursor: pointer;
   font-size: 50px;
   text-decoration: none;
+  align-items: center;
+  font-weight: 100;
+  @media only screen and (min-width: 1024px) {
+    font-size: 15px;
+    padding: 5px 15px;
+  }
 }
 
 .btn {
@@ -58,12 +83,16 @@ body {
     color: white;
     background-color: #988468;
   }
+  @media only screen and (min-width: 1024px) {
+    border: solid 2px #988468;
+  }
 }
 
-.btn--primary.btn-arrow {
+.btn--primary {
   &:hover {
-    color: white;
-    transform: translateX(30px)
+    .btn-arrow {
+      border: solid blue;
+    }
   }
 }
 
@@ -76,6 +105,11 @@ body {
   -webkit-transform: rotate(-45deg);
   margin: 10px 10px 10px 80px;
   transition: transform 0.3s ease;
+  @media only screen and (min-width: 1024px) {
+    margin: 10px 10px 10px 40px;
+    padding: 5px;
+    border-width: 0 1.5px 1.5px 0;
+  }
 }
 
 .aspect-ratio{
@@ -99,6 +133,24 @@ body {
   .flex {
     display: flex;
   } 
+
+  //Responsive Classes
+
+  .hidden {
+    display: none;
+  }
+
+  .lg-hidden {
+    @media only screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .lg-block {
+    @media only screen and (min-width: 1024px) {
+      display: block;
+    }
+  }
 
   // Constraints
 
@@ -177,4 +229,8 @@ body {
 
   .mr-8 {
     margin-right: 32px;
+  }
+
+  .mt-12 {
+    margin-top: 48px;
   }
