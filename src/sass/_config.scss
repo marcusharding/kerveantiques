@@ -50,6 +50,9 @@ main {
   @media only screen and (min-width: 1024px) {
     margin-bottom: 31rem;
   }
+  @media only screen and (orientation: landscape) and (max-width: 823px) {
+    margin-bottom: 19rem;
+  }
 }
 .overflow-y-hidden {
   overflow-y: hidden;

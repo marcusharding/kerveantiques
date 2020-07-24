@@ -1,11 +1,14 @@
 .mainSection {
     .h1-a {
         font-size: 2rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 6rem;
         @media only screen and (min-width: 1024px) {
             font-size: 3.75rem;
             width: 50%;
             text-align: center;
-            margin: 0 auto;
+            padding-top: 0rem;
         }
     }
     .h1-b {
@@ -15,8 +18,8 @@
         width: 30%;
         color: #988468;
         border: solid 0.1px;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         @media only screen and (min-width: 1024px) {
             border: solid 0.1px;  
             width: 8%;
@@ -28,21 +31,26 @@
         font-size: 1.9rem;
     }
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 1.5;
-        margin-bottom: 3rem;
+        padding-bottom: 3rem;
+        width: 90%;
+        margin: 0 auto;
         @media only screen and (min-width: 1024px) {
             font-size: 2.25rem;
-            padding-bottom: 3rem;
+            padding-bottom: 6rem;
+            width: 100%;
         }
     }
 
     .info-excerpt {
         font-size: 0.8rem;
+        padding-bottom: 6rem;
         @media only screen and (min-width: 1024px) {
             width: 30%;
             margin: 0 auto;
             font-size: 1.0625rem;
+            padding-bottom: 6rem;
         }
     }
     .newEvent {
@@ -52,6 +60,7 @@
         }
         @media only screen and (min-width: 1024px) {
             font-size: 1.5rem;
+            padding-top: 6rem;
             span {
                 display: inline-block;
             }

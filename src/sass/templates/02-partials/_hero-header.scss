@@ -44,13 +44,13 @@
             }
             .hero-subHeading__container {
                 padding-bottom: 1rem;
+                @media only screen and (orientation: landscape) and (max-width: 823px) {
+                    width: 50%;
+                    margin-right: 0;
+                }
                 @media only screen and (min-width: 768px) {
                     padding-bottom: 5rem;
                     width: 70%;
-                }
-                @media only screen and (orientation: landscape) and (max-width: 823px) {
-                    width: 50%;
-                    margin-right: 0.625rem;
                 }
                 .hero-subHeading {
                     font-size: 0.8rem;
@@ -61,6 +61,7 @@
                     }
                     @media only screen and (orientation: landscape) and (max-width: 823px) {
                         font-size: 0.8rem;
+                        width: 80%;
                     }
                 }
             }
@@ -85,11 +86,17 @@
         @media only screen and (min-width: 768px) {
             font-size: 4.375rem;
         }
+        @media only screen and (orientation: landscape) and (max-width: 823px) {
+            font-size: 2.5rem;
+        }
     }
     .h1b {
         font-size: 2.1rem;
         @media only screen and (min-width: 768px) {
             font-size: 5.625rem;
+        }
+        @media only screen and (orientation: landscape) and (max-width: 823px) {
+            font-size: 3rem;
         }
     }
 }
