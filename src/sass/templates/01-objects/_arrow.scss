@@ -1,19 +1,58 @@
+// Arrow for buttons
+
+.icon {
+  position: relative;
+  cursor: pointer;
+  width: 65px;
+  height: 35px;
+}
+
 .arrow {
-    box-sizing: border-box;
-    height: 5vw;
-    width: 5vw;
-    border-style: solid;
-    border-color: white;
-    border-width: 0px 2px 2px 0px;
-    transform: rotate(45deg);
-    transition: border-width 150ms ease-in-out;
-  }
+  position: initial;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.arrow::after, .arrow::before {
+  content: "";
+    position: absolute;
+    width: 18%;
+    height: 1.5px;
+    background-color: #988468;
+    top: 10px;
+}
+
+.arrow::after {
+  transform: rotate(30deg);
+  top: 12px;
+}
+
+.arrow::before {
+  top: 19px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transform: rotate(-30deg);
+}
+
+// Anchor arrow
+
+.headerArrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 2px 2px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
 
 .arrow__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 100%;
-    z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  z-index: 10;
+  @media only screen and (orientation: landscape) {
+    display: none;
+}
 }

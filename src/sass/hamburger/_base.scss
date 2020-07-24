@@ -48,6 +48,10 @@
   height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
   display: inline-block;
   position: relative;
+  @media only screen and (orientation: landscape) {
+    width: 60px;
+    height: 30px;
+  }
 }
 
 .hamburger-inner {
@@ -66,6 +70,10 @@
     transition-duration: 0.15s;
     transition-timing-function: ease;
     background-color: #988468;
+    @media only screen and (orientation: landscape) {
+      width: 60px;
+      height: 4px;
+    }
   }
 
   &::before,

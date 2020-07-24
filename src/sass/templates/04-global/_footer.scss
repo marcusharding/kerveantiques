@@ -1,52 +1,75 @@
 footer {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     background-color: #1b1b1b;
     position: fixed;
     width: 100%;
     bottom: 0px;
     height: auto;
+    @media only screen and (orientation: landscape) {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
     div {
         width: 100%;
         height: 100%;
     }
     @media only screen and (min-width: 1024px) {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .para-a {
-        font-size: 30px;
+        font-size: 1.875rem;
         @media only screen and (min-width: 1024px) {
-        font-size: 20px;
+        font-size: 1.25rem;
+        }
+        @media only screen and (orientation: landscape) {
+            font-size: 1.5625rem;
         }
     }
     .para-b {
-        font-size: 30px;
+        font-size: 1.875rem;
         @media only screen and (min-width: 1024px) {
-        font-size: 15px;
+        font-size: 0.9375rem;
+        }
+        @media only screen and (orientation: landscape) {
+            font-size: 1.25rem;
         }
     }
     .para-c {
-        font-size: 30px;
+        font-size: 1.875rem;
         @media only screen and (min-width: 1024px) {
-        font-size: 16px;
+        font-size: 1rem;
         }
+        @media only screen and (orientation: landscape) {
+            font-size: 1.25rem;
+        }
+    }
+    a {
+        display: flex;
+        align-items: center;
     }
 }
 
 .footer-logo {
     .h1a {
-        font-size: 68px;
+        font-size: 4.25rem;
         margin: 0;
         @media only screen and (min-width: 1024px) {
-            font-size: 38px;
+            font-size: 2.375rem;
+        }
+        @media only screen and (orientation: landscape) {
+            font-size: 2.1875rem;
         }
     }
     .h1b {
-        font-size: 80px;
+        font-size: 5rem;
         margin: 0;
         @media only screen and (min-width: 1024px) {
-            font-size: 48px;
+            font-size: 3rem;
+        }
+        @media only screen and (orientation: landscape) {
+            font-size: 2.8125rem;
         }
     }
 }

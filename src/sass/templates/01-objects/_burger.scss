@@ -1,11 +1,14 @@
 .o-burger {
-    width: 100px;
+    width: 6.25rem;
     height: auto;
     display: flex;
     position: relative;
     cursor: pointer;
     @media only screen and (min-width: 1024px) {
         display: none;
+    }
+    @media only screen and (orientation: landscape) {
+        width: 3.75rem;
     }
   
       &.is-active {

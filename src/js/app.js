@@ -11,3 +11,4 @@ import './behaviours';
 import './images/mobile-hero';
 import './images/appreciation';
 import './images/desktop-hero';
+import './images/MobileLandscapeHero';

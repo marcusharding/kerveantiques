@@ -32,57 +32,57 @@
           <nav id="siteNav" class="g-nav">
             <ul class="g-nav__list">
               <li>
-                <a class="g-nav__link text-primary lg-hidden font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary lg-hidden font-palatinoRoman">
                   Home
                 </a>
               </li>
-              <li class="">
-                <a class="g-nav__link text-primary font-palatinoRoman">
+              <li>
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   News
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   Events
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   Journals
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   Newsletters
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   Research
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   Grants
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   Donations
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   About Us
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
                   Membership
                 </a>
               </li>
               <li>
-                <a class="g-nav__link text-primary lg-hidden font-palatinoRoman">
+                <a href="#" onClick="return false;" class="g-nav__link text-primary lg-hidden font-palatinoRoman">
                   Contact & Links
                 </a>
               </li>
@@ -112,7 +112,7 @@
               <header class="mobileHeader">
                 <div class="mobileHero__container">
                   <div id="mobileHero" class="mobileHero">
-                    <div class="mobile-hero__heading relative wrapper">
+                    <div class="mobile-hero__heading relative">
                       <h1 class="text-white h1a">The</h1>
                       <h1 class="text-white h1b uppercase">Antique</h1>
                       <h1 class="text-white h1b uppercase">Society</h1>
@@ -121,7 +121,7 @@
                       <p class="text-white hero-subHeading font-avenirBook">c. 1770  /  <span class="text-secondary">Armchair by Michel Gourdin - France and a wrap if longer text.</span></p>
                       <div class="arrow__container">
                         <a data-scroll href="#mainContent">
-                          <div class="arrow"></div>
+                          <div class="headerArrow"></div>
                         </a>
                       </div>
                     </div>
@@ -130,7 +130,7 @@
               </header>
 
               <!-- Desktop -->
-              <header class="desktopHeader">
+              <header id="desktopHeader" class="desktopHeader">
                 <div class="desktop-hero__container">
                   <div id="desktopHero" class="desktopHero">
                     <div class="hero__heading__container wrapper">
@@ -170,7 +170,9 @@
                     <p class="text-quaternary mainSection-subText font-avenirBook">The Wallace Collection, Hertford House, Manchester Square, London, W1 Price: £45.00</p>
                     <a class="btn btn--primary font-avenirMedium my-24" href="#" onClick="return false;">
                       view events
-                      <i class="btn-arrow"></i>
+                      <div class="icon">
+                          <i class="arrow"></i>
+                        </div>
                     </a>
                   </div>
 
@@ -182,7 +184,9 @@
                       <p class="text-secondary mainSection-subText font-avenirBook">The Wallace Collection, Hertford House, Manchester Square, London, W1 Price: £45.00</p>
                       <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
                         event details
-                        <i class="btn-arrow"></i>
+                        <div class="icon">
+                          <i class="arrow"></i>
+                        </div>
                       </a>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="100" class="event">
@@ -191,7 +195,9 @@
                       <p class="text-secondary mainSection-subText font-avenirBook">14:00 at 23 Blythe Road, London W14 0QX Building on the Society's 2014 symposium on carving, this visit will explore the subject.</p>
                       <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
                         event details
-                        <i class="btn-arrow"></i>
+                        <div class="icon">
+                          <i class="arrow"></i>
+                        </div>
                       </a>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="200" class="event">
@@ -200,7 +206,9 @@
                       <p class="text-secondary mainSection-subText font-avenirBook">This weekend will include private visits to Newby Hall with its Adam designed tapestry room furnished by Thomas Chippendale and </p>
                       <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
                         event details
-                        <i class="btn-arrow"></i>
+                        <div class="icon">
+                          <i class="arrow"></i>
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -212,7 +220,7 @@
             <!-------------------------
             FOOTER
             --------------------------->
-            <footer>
+            <footer data-module="footerIndexing">
               <div class="wrapper">
                 <div class="footer-logo py-12">
                   <h1 class="text-white h1a">The</h1>
@@ -222,9 +230,9 @@
                 <p class="uppercase text-primary font-palatinoRoman para-a pb-12">CONTACT & LINKS</p>
                 <p class="text-tertiary font-avenirBook para-b">© Antique Society is registered charity no. 251863.</p>
                 <div class="flex">
-                  <p class="uppercase font-avenirBook text-secondary mr-8 para-c">privacy policy</p>
+                  <a href="#" onClick="return false;" class="uppercase font-avenirBook text-secondary mr-8 para-c">privacy policy</a>
                   <p class="uppercase font-avenirBook text-secondary mr-8 para-c">|</p>
-                  <p class="uppercase font-avenirBook text-secondary mr-8 para-c">terms & conditions</p>
+                  <a href="#" onClick="return false;" class="uppercase font-avenirBook text-secondary mr-8 para-c">terms & conditions</a>
                 </div>
               </div>
             </footer>  
