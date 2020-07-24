@@ -5,9 +5,9 @@ Marcus Harding - Build from scratch The Antique Society
 ## Features 
 - Webpack Dev Server, Asset Management and Sass Processing
 - Javascript compiling with Babel
+- HTML5, CSS3
 - Sass
 - Yarn
-- 
 
 ## Getting Started
 - clone the repo
