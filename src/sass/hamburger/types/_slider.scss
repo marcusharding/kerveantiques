@@ -12,17 +12,10 @@
         transition-timing-function: ease;
         transition-duration: 0.15s;
 
-        @media only screen and (orientation: landscape) {
-          top: 15px;
-        }
       }
 
       &::after {
         top: ($hamburger-layer-height * 2) + ($hamburger-layer-spacing * 2);
-
-        @media only screen and (orientation: landscape) {
-          top: 29px;
-        }
       }
     }
 
@@ -39,9 +32,6 @@
 
         &::after {
           transform: translate3d(0, $y-offset * -2, 0) rotate(-90deg);
-          @media only screen and (orientation: landscape) {
-            transform: translate3d(0, -29px, 0) rotate(45deg);
-          }
         }
       }
     }

@@ -6,9 +6,9 @@ footer {
     width: 100%;
     bottom: 0px;
     height: auto;
-    @media only screen and (orientation: landscape) {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+    @media only screen and (orientation: landscape) and (max-width: 823px) {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
     }
     div {
         width: 100%;
@@ -24,8 +24,8 @@ footer {
         @media only screen and (min-width: 1024px) {
         font-size: 1.25rem;
         }
-        @media only screen and (orientation: landscape) {
-            font-size: 1.5625rem;
+        @media only screen and (orientation: landscape) and (max-width: 823px) {
+            font-size: 1rem;
         }
     }
     .para-b {
@@ -33,8 +33,8 @@ footer {
         @media only screen and (min-width: 1024px) {
         font-size: 0.9375rem;
         }
-        @media only screen and (orientation: landscape) {
-            font-size: 1.25rem;
+        @media only screen and (orientation: landscape) and (max-width: 823px) {
+            font-size: 1rem;
         }
     }
     .para-c {
@@ -43,8 +43,8 @@ footer {
         @media only screen and (min-width: 1024px) {
         font-size: 1rem;
         }
-        @media only screen and (orientation: landscape) {
-            font-size: 1.25rem;
+        @media only screen and (orientation: landscape) and (max-width: 823px) {
+            font-size: 1rem;
         }
     }
     a {
@@ -54,14 +54,20 @@ footer {
 }
 
 .footer-logo {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @media only screen and (orientation: landscape) and (max-width: 823px) {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
     .h1a {
         font-size: 1.5rem;
         margin: 0;
         @media only screen and (min-width: 1024px) {
             font-size: 2.375rem;
         }
-        @media only screen and (orientation: landscape) {
-            font-size: 2.1875rem;
+        @media only screen and (orientation: landscape) and (max-width: 823px) {
+            font-size: 1.5rem;
         }
     }
     .h1b {
@@ -70,8 +76,8 @@ footer {
         @media only screen and (min-width: 1024px) {
             font-size: 3rem;
         }
-        @media only screen and (orientation: landscape) {
-            font-size: 2.8125rem;
+        @media only screen and (orientation: landscape) and (max-width: 823px) {
+            font-size: 1.5rem;
         }
     }
 }

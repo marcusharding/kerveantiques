@@ -12,16 +12,15 @@
 
 .header {
   position: fixed;
-  // position: fixed;
   z-index: 1000;
   transition: 600ms ease;
   background-color: #1d1e1e;
   width: 100%;
   padding-top: 0.8rem;
   padding-bottom: 0.6rem;
-  @media only screen and (orientation: landscape) {
-    padding-top: 0.8rem;
-    padding-bottom: 0.6rem;
+  @media only screen and (orientation: landscape) and (max-width: 823px) {
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
 
   }
   @media only screen and (min-width: 1024px) {

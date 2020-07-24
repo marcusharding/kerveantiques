@@ -7,9 +7,6 @@
     @media only screen and (min-width: 1024px) {
         display: none;
     }
-    @media only screen and (orientation: landscape) {
-        width: 3.75rem;
-    }
     &.is-active {
         .o-burger__slice--mid {
             opacity: 0;

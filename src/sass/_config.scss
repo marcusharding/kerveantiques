@@ -29,13 +29,26 @@ section {
   min-height: 100%; 
   height: auto !important; 
   height: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+#mainContent {
+  @media only screen and (min-width: 1024px) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
 
 main {
   z-index: 20;
   margin-bottom: 26rem;
   @media only screen and (min-width: 1024px) {
-    margin-bottom: 33.625rem;
+    margin-bottom: 31rem;
   }
 }
 .overflow-y-hidden {
