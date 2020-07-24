@@ -10,21 +10,18 @@
     @media only screen and (orientation: landscape) {
         width: 3.75rem;
     }
-  
-      &.is-active {
-          .o-burger__slice--mid {
-              opacity: 0;
-              transition-delay: 0ms;
-          }
-  
-          .o-burger__slice--top {
-              transform: translate3d(0, -50%, 0) rotate(45deg);
-          }
-  
-          .o-burger__slice--bot {
-              transform: translate3d(0, -50%, 0) rotate(-45deg);
-          }
-      }
+    &.is-active {
+        .o-burger__slice--mid {
+            opacity: 0;
+            transition-delay: 0ms;
+        }
+        .o-burger__slice--top {
+            transform: translate3d(0, -50%, 0) rotate(45deg);
+        }
+        .o-burger__slice--bot {
+            transform: translate3d(0, -50%, 0) rotate(-45deg);
+        }
+    }
   }
   
   .o-burger__slice {

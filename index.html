@@ -12,225 +12,223 @@
   </head>
 
   <body id="body">
+    <!-------------------------
+    NAVBAR
+    --------------------------->
+    <div data-module="siteHeader" id="siteHeader" class="header">
+      <div class="header-wrapper">
 
-      <!-------------------------
-      NAVBAR
-      --------------------------->
-      <div data-module="siteHeader" id="siteHeader" class="header">
-        <div class="header-wrapper">
+        <!-- Menu Logo -->
+        <a class="text-white uppercase font-palatinoRoman logo">
+          The Antique Society
+        </a>
 
-          <!-- Menu Logo -->
-          <a class="text-white uppercase font-palatinoRoman logo">
-            The Antique Society
-          </a>
+        <!-- Navigation Menu -->
+        <nav id="siteNav" class="g-nav">
+          <ul class="g-nav__list">
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary lg-hidden font-palatinoRoman">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                News
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                Events
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                Journals
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                Newsletters
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                Research
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                Grants
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                Donations
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
+                Membership
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick="return false;" class="g-nav__link text-primary lg-hidden font-palatinoRoman">
+                Contact & Links
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-          <!-- Navigation Menu -->
-          <nav id="siteNav" class="g-nav">
-            <ul class="g-nav__list">
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary lg-hidden font-palatinoRoman">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  News
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  Journals
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  Newsletters
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  Research
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  Grants
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  Donations
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary font-palatinoRoman">
-                  Membership
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick="return false;" class="g-nav__link text-primary lg-hidden font-palatinoRoman">
-                  Contact & Links
-                </a>
-              </li>
-            </ul>
-          </nav>
+        <!-- Burger Button -->
+        <a data-module="mobileMenu" id="mobileMenu" data-menu-button aria-controls='site-nav' aria-expanded='false' class="o-burger mobile-burger">
+          <span class="visuallyhidden">Open Menu</span>
+          <button class="hamburger hamburger--slider" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
 
-          <!-- Burger Button -->
-          <a data-module="mobileMenu" id="mobileMenu" data-menu-button aria-controls='site-nav' aria-expanded='false' class="o-burger mobile-burger">
-            <span class="visuallyhidden">Open Menu</span>
-            <button class="hamburger hamburger--slider" type="button">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-              </span>
-            </button>
-          </a>
+    <main data-module="smoothScroll" class="main relative">
+      <div data-module="aos" class="">
+        <!-------------------------
+        HERO HEADER
+        --------------------------->
 
+        <!-- Mobile -->
+        <header class="mobileHeader">
+          <div class="mobileHero__container">
+            <div id="mobileHero" class="mobileHero">
+              <div class="mobile-hero__heading relative">
+                <h1 class="text-white h1a">The</h1>
+                <h1 class="text-white h1b uppercase">Antique</h1>
+                <h1 class="text-white h1b uppercase">Society</h1>
+              </div>
+              <div class="wrapper relative z-10 hero-subHeading__container">
+                <p class="text-white hero-subHeading font-avenirBook">c. 1770  /  <span class="text-secondary">Armchair by Michel Gourdin - France and a wrap if longer text.</span></p>
+                <div class="arrow__container">
+                  <a data-scroll href="#mainContent">
+                    <div class="headerArrow"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Desktop -->
+        <header id="desktopHeader" class="desktopHeader">
+          <div class="desktop-hero__container">
+            <div id="desktopHero" class="desktopHero">
+              <div class="hero__heading__container wrapper">
+                <div>
+                  <div class="heading">
+                    <h1 class="text-white h1a">The</h1>
+                    <h1 class="text-white h1b uppercase">Antique</h1>
+                    <h1 class="text-white h1b uppercase">Society</h1>
+                  </div>
+                  <hr class="mb-12"/>
+                  <p class="font-palatinoLight para-a">Ipsum lorum del sora asti del verde cresti sa.</p>
+                  <p class="text-white font-avenirBook para-b mb-12">c. 1770  /  <span>Armchair by Michel Gourdin - France and two lines if required.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-------------------------
+        MAIN PAGE CONTENT
+        --------------------------->
+        <section>
+          <div id="mainContent" class="wrapper text-center py-12">
+            <div class="mainSection">
+              <h1 data-aos="fade-up" class="uppercase h1-a">ANTIQUE APPRECIATION since 1964.</h1>
+              <hr class="line-break"/>
+              <h3 data-aos="fade-up" class="text-secondary">The Antique Society was founded to study furniture of all periods, places and kinds, to increase knowledge and appreciation of it, and to assist in the preservation of furniture and its records.</h3>
+              <div data-aos="fade-up" id="appreciation" class="responsive-img aspect-ratio"></div>
+              <p class="text-primary info-excerpt font-avenirBook pb-12">c. 1770  /  <span class="text-secondary">Armchair by Michel Gourdin - France and a wrap if longer text.</span></p>
+              <p data-aos="fade-up" class="uppercase text-primary font-avenirMedium pt-12  newEvent">new event<span>s</span></p>
+              <hr class="line-break my-24"/>
+
+              <!-- Mobile Event -->
+              <div data-aos="fade-up" class="mobileEvent__container">
+                <h1 class="text-primary date uppercase h1-b">21<sup class="sup">st</sup> feb / <span class="text-tertiary">2015</span></h1>
+                <h2 class="text-quaternary uppercase">THE 39th ANNUAL SYMPOSIUM 2015</h2>
+                <p class="text-quaternary mainSection-subText font-avenirBook">The Wallace Collection, Hertford House, Manchester Square, London, W1 Price: £45.00</p>
+                <a class="btn btn--primary font-avenirMedium mt-12 mb-24" href="#" onClick="return false;">
+                  view events
+                  <div class="icon">
+                      <i class="arrow"></i>
+                    </div>
+                </a>
+              </div>
+
+              <!-- Desktop Events -->
+              <div class="desktopEvent__container">
+                <div data-aos="fade-up" data-aos-delay="00" class="event">
+                  <h1 class="text-primary date uppercase h1-b">21<sup class="sup">st</sup> feb / <span class="text-tertiary">2015</span></h1>
+                  <h2 class="text-quaternary uppercase">THE 39th ANNUAL SYMPOSIUM 2015</h2>
+                  <p class="text-secondary mainSection-subText font-avenirBook">The Wallace Collection, Hertford House, Manchester Square, London, W1 Price: £45.00</p>
+                  <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
+                    event details
+                    <div class="icon">
+                      <i class="arrow"></i>
+                    </div>
+                  </a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" class="event">
+                  <h1 class="text-primary date uppercase h1-b">26<sup class="sup">th</sup> feb / <span class="text-tertiary">2015</span></h1>
+                  <h2 class="text-quaternary uppercase">BLYTHE HOUSE</h2>
+                  <p class="text-secondary mainSection-subText font-avenirBook">14:00 at 23 Blythe Road, London W14 0QX Building on the Society's 2014 symposium on carving, this visit will explore the subject.</p>
+                  <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
+                    event details
+                    <div class="icon">
+                      <i class="arrow"></i>
+                    </div>
+                  </a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="event">
+                  <h1 class="text-primary date uppercase h1-b">4<sup class="sup">th</sup> mar / <span class="text-tertiary">2015</span></h1>
+                  <h2 class="text-quaternary uppercase">STUDY WEEKEND TO YORK AND NORTH YORKSHIRE</h2>
+                  <p class="text-secondary mainSection-subText font-avenirBook">This weekend will include private visits to Newby Hall with its Adam designed tapestry room furnished by Thomas Chippendale and </p>
+                  <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
+                    event details
+                    <div class="icon">
+                      <i class="arrow"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>  
+      </div>
+    </main>
+    <!-------------------------
+    FOOTER
+    --------------------------->
+    <footer data-module="footerIndexing">
+      <div class="wrapper">
+        <div class="footer-logo py-12">
+          <h1 class="text-white h1a">The</h1>
+          <h1 class="text-white h1b uppercase">Antique</h1>
+          <h1 class="text-white h1b uppercase">Society</h1>
+        </div>  
+        <p class="uppercase text-primary font-palatinoRoman para-a">CONTACT & LINKS</p>
+        <p class="text-tertiary font-avenirBook para-b">© Antique Society is registered charity no. 251863.</p>
+        <div class="flex">
+          <a href="#" onClick="return false;" class="uppercase font-avenirBook text-secondary para-c">privacy policy</a>
+          <p class="uppercase font-avenirBook text-secondary para-c">|</p>
+          <a href="#" onClick="return false;" class="uppercase font-avenirBook text-secondary para-c">terms & conditions</a>
         </div>
       </div>
-
-      <main data-module="smoothScroll" class="main relative">
-        <div data-module="aos" class="">
-      <!-------------------------
-      HERO HEADER
-      --------------------------->
-
-              <!-- Mobile -->
-              <header class="mobileHeader">
-                <div class="mobileHero__container">
-                  <div id="mobileHero" class="mobileHero">
-                    <div class="mobile-hero__heading relative">
-                      <h1 class="text-white h1a">The</h1>
-                      <h1 class="text-white h1b uppercase">Antique</h1>
-                      <h1 class="text-white h1b uppercase">Society</h1>
-                    </div>
-                    <div class="wrapper relative z-10 hero-subHeading__container">
-                      <p class="text-white hero-subHeading font-avenirBook">c. 1770  /  <span class="text-secondary">Armchair by Michel Gourdin - France and a wrap if longer text.</span></p>
-                      <div class="arrow__container">
-                        <a data-scroll href="#mainContent">
-                          <div class="headerArrow"></div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </header>
-
-              <!-- Desktop -->
-              <header id="desktopHeader" class="desktopHeader">
-                <div class="desktop-hero__container">
-                  <div id="desktopHero" class="desktopHero">
-                    <div class="hero__heading__container wrapper">
-                      <div>
-                        <div class="heading">
-                          <h1 class="text-white h1a">The</h1>
-                          <h1 class="text-white h1b uppercase">Antique</h1>
-                          <h1 class="text-white h1b uppercase">Society</h1>
-                        </div>
-                        <hr class="mb-12"/>
-                        <p class="font-palatinoLight para-a">Ipsum lorum del sora asti del verde cresti sa.</p>
-                        <p class="text-white font-avenirBook para-b mb-12">c. 1770  /  <span>Armchair by Michel Gourdin - France and two lines if required.</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </header>
-
-            <!-------------------------
-            MAIN PAGE CONTENT
-            --------------------------->
-            <section>
-              <div id="mainContent" class="wrapper text-center py-12">
-                <div class="mainSection">
-                  <h1 data-aos="fade-up" class="uppercase h1-a">ANTIQUE APPRECIATION since 1964.</h1>
-                  <hr class="line-break"/>
-                  <h3 data-aos="fade-up" class="text-secondary">The Antique Society was founded to study furniture of all periods, places and kinds, to increase knowledge and appreciation of it, and to assist in the preservation of furniture and its records.</h3>
-                  <div data-aos="fade-up" id="appreciation" class="responsive-img aspect-ratio"></div>
-                  <p class="text-primary info-excerpt font-avenirBook pb-12">c. 1770  /  <span class="text-secondary">Armchair by Michel Gourdin - France and a wrap if longer text.</span></p>
-                  <p data-aos="fade-up" class="uppercase text-primary font-avenirMedium pt-12  newEvent">new event<span>s</span></p>
-                  <hr class="line-break my-24"/>
-
-                  <!-- Mobile Event -->
-                  <div data-aos="fade-up" class="mobileEvent__container">
-                    <h1 class="text-primary date uppercase h1-b">21<sup class="sup">st</sup> feb / <span class="text-tertiary">2015</span></h1>
-                    <h2 class="text-quaternary uppercase">THE 39th ANNUAL SYMPOSIUM 2015</h2>
-                    <p class="text-quaternary mainSection-subText font-avenirBook">The Wallace Collection, Hertford House, Manchester Square, London, W1 Price: £45.00</p>
-                    <a class="btn btn--primary font-avenirMedium mt-12 mb-24" href="#" onClick="return false;">
-                      view events
-                      <div class="icon">
-                          <i class="arrow"></i>
-                        </div>
-                    </a>
-                  </div>
-
-                  <!-- Desktop Event -->
-                  <div class="desktopEvent__container">
-                    <div data-aos="fade-up" data-aos-delay="00" class="event">
-                      <h1 class="text-primary date uppercase h1-b">21<sup class="sup">st</sup> feb / <span class="text-tertiary">2015</span></h1>
-                      <h2 class="text-quaternary uppercase">THE 39th ANNUAL SYMPOSIUM 2015</h2>
-                      <p class="text-secondary mainSection-subText font-avenirBook">The Wallace Collection, Hertford House, Manchester Square, London, W1 Price: £45.00</p>
-                      <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
-                        event details
-                        <div class="icon">
-                          <i class="arrow"></i>
-                        </div>
-                      </a>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="100" class="event">
-                      <h1 class="text-primary date uppercase h1-b">26<sup class="sup">th</sup> feb / <span class="text-tertiary">2015</span></h1>
-                      <h2 class="text-quaternary uppercase">BLYTHE HOUSE</h2>
-                      <p class="text-secondary mainSection-subText font-avenirBook">14:00 at 23 Blythe Road, London W14 0QX Building on the Society's 2014 symposium on carving, this visit will explore the subject.</p>
-                      <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
-                        event details
-                        <div class="icon">
-                          <i class="arrow"></i>
-                        </div>
-                      </a>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="200" class="event">
-                      <h1 class="text-primary date uppercase h1-b">4<sup class="sup">th</sup> mar / <span class="text-tertiary">2015</span></h1>
-                      <h2 class="text-quaternary uppercase">STUDY WEEKEND TO YORK AND NORTH YORKSHIRE</h2>
-                      <p class="text-secondary mainSection-subText font-avenirBook">This weekend will include private visits to Newby Hall with its Adam designed tapestry room furnished by Thomas Chippendale and </p>
-                      <a class="btn btn--primary font-avenirMedium mt-12" href="#" onClick="return false;">
-                        event details
-                        <div class="icon">
-                          <i class="arrow"></i>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>  
-          </div>
-        </main>
-            <!-------------------------
-            FOOTER
-            --------------------------->
-            <footer data-module="footerIndexing">
-              <div class="wrapper">
-                <div class="footer-logo py-12">
-                  <h1 class="text-white h1a">The</h1>
-                  <h1 class="text-white h1b uppercase">Antique</h1>
-                  <h1 class="text-white h1b uppercase">Society</h1>
-                </div>  
-                <p class="uppercase text-primary font-palatinoRoman para-a">CONTACT & LINKS</p>
-                <p class="text-tertiary font-avenirBook para-b">© Antique Society is registered charity no. 251863.</p>
-                <div class="flex">
-                  <a href="#" onClick="return false;" class="uppercase font-avenirBook text-secondary para-c">privacy policy</a>
-                  <p class="uppercase font-avenirBook text-secondary para-c">|</p>
-                  <a href="#" onClick="return false;" class="uppercase font-avenirBook text-secondary para-c">terms & conditions</a>
-                </div>
-              </div>
-            </footer>  
+    </footer>  
   </body>
 </html>

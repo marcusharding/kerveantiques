@@ -32,8 +32,6 @@
                     display: none;
                 }
             }
-
-            
             img {
                 position: absolute;
                 top: 0;
@@ -44,7 +42,6 @@
                 width: 100%;
                 height: 100%;
             }
-
             .hero-subHeading__container {
                 padding-bottom: 1rem;
                 @media only screen and (min-width: 768px) {
@@ -70,7 +67,6 @@
         }
     }
 }
-
 
 
 .mobile-hero__heading {
@@ -175,7 +171,6 @@
 
 
 // Headroom.js
-
 .headroom {
     will-change: transform;
     transition: transform 200ms linear;
