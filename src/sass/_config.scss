@@ -29,14 +29,14 @@ section {
   min-height: 100%; 
   height: auto !important; 
   height: 100%;
-  margin-bottom: 53.125rem;
-  @media only screen and (min-width: 1024px) {
-    margin-bottom: 33.625rem;
-  }
 }
 
 main {
   z-index: 20;
+  margin-bottom: 26rem;
+  @media only screen and (min-width: 1024px) {
+    margin-bottom: 33.625rem;
+  }
 }
 .overflow-y-hidden {
   overflow-y: hidden;
@@ -87,9 +87,9 @@ body {
   text-align: center; 
   position: relative; 
   text-transform: uppercase;
-  padding: 40px 100px;
+  padding: 0.5rem 1rem 0.5rem 1.8rem;
   cursor: pointer;
-  font-size: 3.125rem;
+  font-size: 1rem;
   text-decoration: none;
   align-items: center;
   font-weight: 100;
@@ -104,7 +104,7 @@ body {
 }
 
 .btn--primary {
-  border: solid 7px #988468;
+  border: solid 0.15rem #988468;
   color: #988468;
   transition: background-color 0.3s ease;
   &:hover {

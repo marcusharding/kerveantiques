@@ -1,6 +1,6 @@
 .mainSection {
     .h1-a {
-        font-size: 7rem;
+        font-size: 2rem;
         @media only screen and (min-width: 1024px) {
             font-size: 3.75rem;
             width: 50%;
@@ -9,14 +9,14 @@
         }
     }
     .h1-b {
-        font-size: 7rem;
+        font-size: 2.5rem;
     }
     .line-break {
-        width: 40%;
+        width: 30%;
         color: #988468;
-        border: solid 1px;
-        margin-top: 6rem;
-        margin-bottom: 6rem;
+        border: solid 0.1px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         @media only screen and (min-width: 1024px) {
             border: solid 0.1px;  
             width: 8%;
@@ -25,11 +25,12 @@
         }
     }
     h2 {
-        font-size: 5rem;
+        font-size: 1.9rem;
     }
     h3 {
-        font-size: 3.75rem;
+        font-size: 1.2rem;
         line-height: 1.5;
+        margin-bottom: 3rem;
         @media only screen and (min-width: 1024px) {
             font-size: 2.25rem;
             padding-bottom: 3rem;
@@ -37,7 +38,7 @@
     }
 
     .info-excerpt {
-        font-size: 2.625rem;
+        font-size: 0.8rem;
         @media only screen and (min-width: 1024px) {
             width: 30%;
             margin: 0 auto;
@@ -45,7 +46,7 @@
         }
     }
     .newEvent {
-        font-size: 3rem;
+        font-size: 1rem;
         span {
             display: none;
         }
@@ -57,7 +58,7 @@
         }
     }
     .mainSection-subText {
-        font-size: 3.25rem;
+        font-size: 01rem;
         line-height: 1.7;
     }
 }
@@ -78,10 +79,10 @@ section {
         display: flex;
         justify-content: center;
         .sup {
-            font-size: 2.5rem;
-            top: 2.5rem;
+            font-size: 1rem;
+            top: 0.5rem;
             height: auto;
-            margin-right: 0.9375rem;
+            margin-right: 0.3rem;
         }
     }
 }

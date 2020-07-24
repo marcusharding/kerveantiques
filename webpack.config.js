@@ -72,7 +72,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './index.php'
+      template: './index.html'
     }),
   ],
   devServer: {

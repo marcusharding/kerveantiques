@@ -46,7 +46,7 @@
             }
 
             .hero-subHeading__container {
-                padding-bottom: 10rem;
+                padding-bottom: 1rem;
                 @media only screen and (min-width: 768px) {
                     padding-bottom: 5rem;
                     width: 70%;
@@ -56,7 +56,7 @@
                     margin-right: 0.625rem;
                 }
                 .hero-subHeading {
-                    font-size: 2.625rem;
+                    font-size: 0.8rem;
                     text-align: center;
                     @media only screen and (min-width: 768px) {
                         font-size: 2rem;
@@ -75,23 +75,23 @@
 
 .mobile-hero__heading {
     z-index: 10;
-    padding-top: 10rem;
     line-height: 0.4;
     width: 90%;
     margin: 0 auto;
+    padding-top: 3rem;
     @media only screen and (orientation: landscape) {
         padding-top: 4rem;
         width: 50%;
         margin-right: 0;
     }
     .h1a {
-        font-size: 5.625rem;
+        font-size: 1.8rem;
         @media only screen and (min-width: 768px) {
             font-size: 4.375rem;
         }
     }
     .h1b {
-        font-size: 5rem;
+        font-size: 2.1rem;
         @media only screen and (min-width: 768px) {
             font-size: 5.625rem;
         }
@@ -145,10 +145,10 @@
             line-height: 0.3;
         }
         .h1a {
-            font-size: 52px;
+            font-size: 3.25rem;
         }
         .h1b {
-            font-size: 80px;
+            font-size: 5rem;
         }
         hr {
             width: 15%;
@@ -156,7 +156,7 @@
         }
         .para-a {
             color: #1a1a1a;
-            font-size: 28px;
+            font-size: 2rem;
             line-height: 1.2;
             width: 65%;
         }
