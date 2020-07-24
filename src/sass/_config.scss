@@ -3,6 +3,7 @@ body {
   margin: 0;
   width: 100%;
   min-width: 100%;
+  background-color: #f3f3f3;
 }
 
 input[type="button"]
@@ -50,7 +51,7 @@ main {
   @media only screen and (min-width: 1024px) {
     margin-bottom: 31rem;
   }
-  @media only screen and (orientation: landscape) and (max-width: 823px) {
+  @media only screen and (orientation: landscape) and (max-width: 1024px) {
     margin-bottom: 19rem;
   }
 }
@@ -59,8 +60,13 @@ main {
 }
 
 // HELPERS
-body {
-  background-color: #f3f3f3;
+
+.z-1000 {
+  z-index: 1000;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .visuallyhidden {

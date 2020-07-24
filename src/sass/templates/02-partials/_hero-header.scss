@@ -21,14 +21,14 @@
 
             .landscapeMobileHero {
                 display: none;
-                @media only screen and (orientation: landscape) and (max-width: 823px) {
+                @media only screen and (orientation: landscape) and (max-width: 1024px) {
                     display: block;
                 }
             }
 
             .portraitMobileHero {
                 display: block;
-                @media only screen and (orientation: landscape) and (max-width: 823px) {
+                @media only screen and (orientation: landscape) and (max-width: 1024px) {
                     display: none;
                 }
             }
@@ -44,13 +44,13 @@
             }
             .hero-subHeading__container {
                 padding-bottom: 1rem;
-                @media only screen and (orientation: landscape) and (max-width: 823px) {
-                    width: 50%;
-                    margin-right: 0;
-                }
                 @media only screen and (min-width: 768px) {
                     padding-bottom: 5rem;
                     width: 70%;
+                }
+                @media only screen and (orientation: landscape) and (max-width: 1024px) {
+                    width: 50vw;
+                    margin-right: 0;
                 }
                 .hero-subHeading {
                     font-size: 0.8rem;
@@ -59,9 +59,9 @@
                         font-size: 2rem;
                         margin: 0;
                     }
-                    @media only screen and (orientation: landscape) and (max-width: 823px) {
+                    @media only screen and (orientation: landscape) and (max-width: 1024px) {
                         font-size: 0.8rem;
-                        width: 80%;
+                        width: 66%;
                     }
                 }
             }
@@ -76,7 +76,7 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 3rem;
-    @media only screen and (orientation: landscape) and (max-width: 823px) {
+    @media only screen and (orientation: landscape) and (max-width: 1024px) {
         padding-top: 4rem;
         width: 50%;
         margin-right: 0;
@@ -86,7 +86,7 @@
         @media only screen and (min-width: 768px) {
             font-size: 4.375rem;
         }
-        @media only screen and (orientation: landscape) and (max-width: 823px) {
+        @media only screen and (orientation: landscape) and (max-width: 1024px) {
             font-size: 2.5rem;
         }
     }
@@ -95,7 +95,7 @@
         @media only screen and (min-width: 768px) {
             font-size: 5.625rem;
         }
-        @media only screen and (orientation: landscape) and (max-width: 823px) {
+        @media only screen and (orientation: landscape) and (max-width: 1024px) {
             font-size: 3rem;
         }
     }
