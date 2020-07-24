@@ -72,6 +72,12 @@
     }
 }
 
+.dateHr {
+    border: solid 0.9px;
+    width: 50px;
+    transform: rotate(-70deg);
+}
+
 section {
     background-color: #f3f3f3;
     position: relative;
@@ -105,7 +111,7 @@ section {
         width: 33.33%;
         text-align: left;
         h1 {
-            font-size: 3rem;
+            font-size: 2rem;
         }
         h2 {
             font-size: 2rem;
