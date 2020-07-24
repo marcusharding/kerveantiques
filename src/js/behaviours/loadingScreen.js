@@ -14,8 +14,6 @@ function loadingScreen(node) {
         body.classList.add('relative')
         container[1].classList.add('isActive')
         siteHeader.classList.add('z-1000')
-        // Set local storage state to true after loading splash screen has played once
-    //   ls.setItem('appLoaded', true)
     }, delayInMilliseconds)
     }
 }
