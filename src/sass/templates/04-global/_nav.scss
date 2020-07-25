@@ -130,6 +130,10 @@
     @media only screen and (min-width: 1024px) {
       font-size: 1vw; 
     }
+
+    @media only screen and (orientation: landscape) and (max-width: 1024px) {
+      font-size: 2vw;
+    }
   }
 
   .logo {

@@ -43,7 +43,7 @@
                 height: 100%;
             }
             .hero-subHeading__container {
-                padding-bottom: 1rem;
+                padding-bottom: 1.5rem;
                 @media only screen and (min-width: 768px) {
                     padding-bottom: 5rem;
                     width: 70%;
@@ -55,6 +55,7 @@
                 .hero-subHeading {
                     font-size: 0.8rem;
                     text-align: center;
+                    margin: 0;
                     @media only screen and (min-width: 768px) {
                         font-size: 2rem;
                         margin: 0;
