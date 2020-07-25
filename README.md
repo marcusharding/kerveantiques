@@ -22,7 +22,7 @@ Marcus Harding - Build from scratch The Antique Society
 
 ## Deployment
 
-Site is deployed to my subdomain at https://kerveantiques.marcusjh.co.uk/
+Site is deployed to my subdomain at https://antiquesociety.marcusjh.co.uk/
 
 ## Authors
 
